@@ -36,8 +36,3 @@
 - Always use `--reload` while developing for hot reload
 
 ---
-
-### 🚀 What’s Next?
-
-- Learn how to use **Pydantic models** to handle request bodies
-- Explore **POST** requests and input validation

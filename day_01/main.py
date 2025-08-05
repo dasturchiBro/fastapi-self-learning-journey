@@ -35,7 +35,7 @@ def lookUp(id):
 	for post in news:
 		if post["id"] == id:
 			return post
-	return HTTPException(status_code=404, detail=f"The news post by ID({id}) not found!")
+	raise HTTPException(status_code=404, detail=f"The news post by ID({id}) not found!")
 
 @app.get("/items/{id}")
 async def getNewsById(id: int):
