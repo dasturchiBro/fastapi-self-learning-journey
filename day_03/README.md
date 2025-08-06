@@ -43,7 +43,7 @@
 
 ### 🧠 Notes To My Future Self
 
-- User **n for n in N if n == m** structure to keep your code cleaner :)
+- Use **n for n in N if n == m** structure to keep your code cleaner :)
 - `next()` gives you the next item from an iterator:
   ```
     next((x for x in [1, 2, 3] if x > 2), None)  # → 3
