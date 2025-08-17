@@ -16,13 +16,14 @@ class User(UserBase):
 class PostBase(BaseModel):
 	title: str  
 	body: str  
-	author: id
+	author: int
 
 class PostCreate(PostBase):
 	pass
 
-class Post(PostBase):
+class PostResponse(PostBase):
 	id: int  
+	author_: User
 
 	class Config:
 		orm_mode = True
